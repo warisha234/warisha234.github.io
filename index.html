@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Aesthetic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="portfolio-nav.webp" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <main>
+        <section class="first">
+            <div class="leftSection">Hello, My name is <span class="purple">warisha</span>
+                <div>and i am </div>
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
+            </div>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['Front end Developer', 'Web Designer', 'Programmer', 'Video Editor'],
+                    typeSpeed: 50,
+                });
+            </script>
+
+            <!-- About Me Section -->
+            <section id="aboutme" class="aboutme">
+                <h2>About Me</h2>
+                <div class="aboutme-content">
+                    <img src="aboutme img.webp" alt="Warisha's Photo">
+                    <div class="aboutme-text">
+                        <p>Hello! I'm Warisha, a passionate web developer with a love for creating stunning,
+                            user-friendly websites. I have a strong background in front-end and back-end development and
+                            thrive on solving complex problems through code.</p>
+                        <p>When I'm not coding, you'll find me exploring new destinations, as traveling is my way of
+                            gaining inspiration and experiencing different cultures. Each journey enriches my
+                            perspective, which I bring back into my work, making my designs more diverse and globally
+                            appealing.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Services Section -->
+            <section id="services" class="services">
+                <h2>Services</h2>
+                <div class="service-container">
+                    <div class="service">
+                        <h3>Web Design</h3>
+                        <p>Crafting visually stunning and user-friendly websites.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Front end developer</h3>
+                        <p>Crafting intuitive and visually appealing web interfaces with a strong focus on user experience.</p>
+                    </div>
+                    <div class="service">
+                        <h3>Video Editing</h3>
+                        <p>Transforming raw footage into captivating visual stories through creative video editing.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <div class="project-container">
+                    <div class="project">
+                        <img src="tictactoeimg.jpeg" alt="Project 1">
+                        <div class="project-details">
+                            <h3>Project 1</h3>
+                            <p>This project showcases a classic Tic-Tac-Toe game
+                                developed using HTML, CSS, and JavaScript.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="resturentimg.jpeg" alt="Project 2">
+                        <div class="project-details">
+                            <h3>Project 2</h3>
+                            <p>This project involved designing and developing a fully responsive
+                                restaurant website using HTML and CSS.</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="alphaimg.jpeg" alt="Project 3">
+                        <div class="project-details">
+                            <h3>Project 3</h3>
+                            <p>Developed a sleek and modern website for Alpha Skincare using HTML  CSS,
+                                focusing on clean design and user-friendly navigation.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Me Section -->
+            <section id="contact" class="contact">
+                <h2>Contact Me</h2>
+                <form action="#">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div class="footer-container">
+                    <h3 class="follow-us">Follow Me</h3>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=61550896005267"><img src="facebook.jpeg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/warishaturab?igsh=MWZlaXM0a28ycHZlag=="><img src="instagram.jpeg" alt="Instagram"></a>
+                        <a href="https://www.linkedin.com/in/warisha-turab-8666b82b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkdin.png" alt="linkdin"></a>
+                        <a href="https://github.com/warisha234"><img src="github.png" alt="github"></a>
+                    </div>
+                    <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+                </div>
+            </footer>
+            
+</body>
+
+</html>
